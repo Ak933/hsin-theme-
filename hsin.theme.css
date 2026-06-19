@@ -1,0 +1,12 @@
+/* Remplacer l'arrière-plan de Discord par une image */
+.appMount-3lHmkl {
+    background-image: url(https://i.imgur.com/H7FNa4k.jpeg) !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: fixed !important;
+}
+
+/* Rendre le contenu de Discord semi-transparent pour voir le fond */
+.layers-3iHuyZ, .container-2RRFHK, .chat-3bRxxu, .sidebar-2K8pFh {
+    background-color: rgba(0, 0, 0, 0.6) !important; /* 0.6 = 60% d'opacité */
+}   
